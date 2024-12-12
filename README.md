@@ -10,9 +10,9 @@ ADS-Project6
 │   └── ...
 ├── src  
 │   ├── code
-│   │   └──  code
+│   │   └──  code // util.hpp main.cpp solution.hpp testcase_gen.c
 │   ├── testcase
-│   │   └── other testcases
+│   │   └── all used testcases
 │   └── ...
 └── README.md
 ```
@@ -20,13 +20,16 @@ ADS-Project6
 ### How to run?
 
 If you wanna run the code:
-- For any ```.py``` file, click right button of your mouse to run in terminal.
-- For ```.c``` file, change input file in ```fscanf```, an then run in terminal with
+
+- Compile all the xpp file together by running:
 ```bash
-g++ xxx.c -o -std=c++11 xxx
-./xxx
+g++ solution.hpp util.hpp main.cpp -o -std=c++11 strip
+./strip
 ```
 
+### Testcase
+
+All testcases are stored in the folder /testcase, use file stream to input them. 
 ### Attention
 
 For anyone wanna purchase a commit, follow the rules:
