@@ -23,7 +23,7 @@ If you wanna run the code:
 
 - Compile all the xpp file together by running:
 ```bash
-g++ solution.hpp util.hpp main.cpp -o -std=c++11 strip
+g++ solution.hpp tetremino.hpp util.hpp main.cpp -o -std=c++11 strip // For bonus, if you wanna use rectangles, the program need to be changed a little, all needed functions are included
 ./strip
 ```
 
